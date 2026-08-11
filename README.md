@@ -3,7 +3,7 @@
 ## About
 This is my personal web-based portfolio showcasing information about me and my recent projects.
 
-Live version: [Portfolio]((https://nassoreen-portfolio.vercel.app/))
+Live version: (https://nassoreen-portfolio.vercel.app/)
 
 ## Tech Stack
 
@@ -17,4 +17,4 @@ Live version: [Portfolio]((https://nassoreen-portfolio.vercel.app/))
 ## Contact
 
 📧 Email: nassoreen2546@gmail.com <br/>
-💼 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/nassoreen-langah-83898924a/)
+💼 LinkedIn: (https://www.linkedin.com/in/nassoreen-langah-83898924a/)
