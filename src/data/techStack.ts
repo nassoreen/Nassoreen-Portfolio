@@ -25,7 +25,7 @@ import VercelWhiteLogo from "@/assets/logos/tech_stack/vercel-white.svg";
 import DockerLogo from "@/assets/logos/tech_stack/docker.svg";
 import PostmanLogo from "@/assets/logos/tech_stack/postman.svg";
 import OllamaLogo from "@/assets/logos/tech_stack/ollama.svg";
-import DjangoLogo from "@/assets/logos/tech_stack/Django.svg";
+import DjangoLogo from "@/assets/logos/tech_stack/django.svg";
 import TesorflowLogo from "@/assets/logos/tech_stack/Tensorflow.svg";
 
 import type { TechCategory, TechItem } from "@/types";
