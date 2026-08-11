@@ -16,5 +16,5 @@ Live version: [Portfolio](https://your-portfolio-link.com/)
 
 ## Contact
 
-📧 Email: nassoreen2546@gmail.com
+📧 Email: nassoreen2546@gmail.com <br/>
 💼 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/nassoreen-langah-83898924a/)
