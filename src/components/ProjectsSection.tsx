@@ -117,16 +117,16 @@ export default function ProjectsSection({ darkMode }: ProjectsSectionProps) {
                     <div>
                         <span className={`mono text-[11px] uppercase tracking-[0.22em]
                             ${darkMode ? "text-orange-400" : "text-orange-600"}`}>
-                            03 — selected work
+                            04 — selected work
                         </span>
                         <h2 className={`mt-2 text-4xl md:text-5xl font-extrabold tracking-tight
                             ${darkMode ? "text-white" : "text-slate-900"}`}>
                             Things I've <span className="serif font-normal opacity-90">built.</span>
                         </h2>
                     </div>
-                    <p className={`max-w-md text-sm md:text-base
+                    <p className={`thai max-w-md text-sm md:text-base
                         ${darkMode ? "text-stone-400" : "text-slate-500"}`}>
-                        Projects spanning organizational workflows, digital signing with legal support, and engagement-focused showcase sites — click any card for details.                    </p>
+                        โปรเจคต่างๆที่สร้างขึ้นมา อาจจะไม่ใช่ผลงานที่ใหญ่ที่สุด แต่เป็นสิ่งที่ผมได้เรียนรู้และพัฒนาตัวเองจากมัน และตั้งใจทำให้ดีที่สุดในทุกๆโปรเจคที่ทำ &nbsp;&nbsp; — สามารถคลิกที่โปรเจคใดก็ได้เพื่อดูรายละเอียด                    </p>
                 </div>
 
                 {/* featured */}

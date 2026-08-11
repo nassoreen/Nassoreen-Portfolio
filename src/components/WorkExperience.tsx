@@ -21,14 +21,10 @@ export default function WorkExperience({ darkMode }: WorkExperienceProps) {
             </span>
             <h2 className={`mt-2 text-4xl md:text-5xl font-extrabold tracking-tight
               ${darkMode ? "text-white" : "text-slate-900"}`}>
-              WORK EXPERIENCE
+              WORK <br />
+              EXPERIENCE
             </h2>
           </div>
-          <p className={`max-w-md text-sm md:text-base
-            ${darkMode ? "text-stone-400" : "text-slate-500"}`}>
-            <span className={darkMode ? "text-stone-200" : "text-slate-800"}>{EXPERIENCE_ITEMS.length} roles</span> that
-            shaped how I build and ship software.
-          </p>
         </div>
 
         <div className="flex flex-col gap-6">

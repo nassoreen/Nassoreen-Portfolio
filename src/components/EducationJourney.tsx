@@ -55,11 +55,6 @@ export default function EducationJourney({ darkMode }: EducationJourneyProps) {
               EDUCATION
             </h2>
           </div>
-          <p className={`max-w-md text-sm md:text-base
-            ${darkMode ? "text-stone-400" : "text-slate-500"}`}>
-            <span className={darkMode ? "text-stone-200" : "text-slate-800"}>{EDUCATION_ITEMS.length} milestones</span> that
-            shaped the way I think and build.
-          </p>
         </div>
 
         {/* timeline */}

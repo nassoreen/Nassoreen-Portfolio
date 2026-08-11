@@ -203,7 +203,8 @@ code, .mono { font-family: 'DM Mono', monospace; }
 ═══════════════════════════════════════════════════════════════════════════ */
 const NAV_LINKS = [
   { id: "home", label: "Home" },
-  { id: "stack", label: "Stack" },
+  { id: "experience", label: "Experience" },
+  { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
   { id: "contact", label: "Contact" },
 ] as const;
@@ -249,7 +250,7 @@ function Navbar({ darkMode, active }: NavbarProps) {
             ${darkMode ? "text-orange-300" : "text-orange-600"}`}
         >
           <Terminal className="w-3.5 h-3.5" />
-          <span>nassoreen<span className={darkMode ? "text-orange-400" : "text-orange-500"}>.</span>space</span>
+          <span>nassoreen<span className={darkMode ? "text-orange-400" : "text-orange-500"}>.</span>DEV</span>
         </a>
 
         <ul className="hidden sm:flex items-center gap-1">
@@ -364,7 +365,7 @@ function StackMatrix({ darkMode }: StackMatrixProps) {
 
   return (
     <section
-      id="stack"
+      id="skills"
       className={`relative px-6 py-24 md:py-32 overflow-hidden scroll-mt-20`}
     >
       <div className="max-w-6xl mx-auto relative z-10">
@@ -374,17 +375,17 @@ function StackMatrix({ darkMode }: StackMatrixProps) {
           <div>
             <span className={`mono text-[11px] uppercase tracking-[0.2em]
               ${darkMode ? "text-orange-400" : "text-orange-600"}`}>
-              02 — toolkit
+              03 — toolkit
             </span>
             <h2 className={`mt-2 text-4xl md:text-5xl font-extrabold tracking-tight
               ${darkMode ? "text-white" : "text-slate-900"}`}>
               SKILLS 
             </h2>
           </div>
-          <p className={`max-w-md text-sm md:text-base
+          <p className={`thai max-w-md text-sm md:text-base
             ${darkMode ? "text-stone-400" : "text-slate-500"}`}>
-            <span className={darkMode ? "text-stone-200" : "text-slate-800"}>{totalCount} technologies</span> I
-            reach for, organized by where they live in the build.
+            <span className={darkMode ? "text-stone-200" : "text-slate-800"}>{totalCount} เครื่องมือ</span>
+            ที่ผมเลือกใช้ เรียงลำดับตามตำแหน่งที่ใช้งานในระบบ
           </p>
         </div>
 
@@ -441,9 +442,9 @@ interface HeroProps {
 }
 
 const HERO_STATS = [
-  { value: "5+", label: "Years coding" },
-  { value: "10+", label: "Projects deployed" },
-  { value: "∞", label: "Food consumed" },
+  { value: "4", label: "MONTH INTERN" },
+  { value: "6+", label: "PROJECTS BUILT" },
+  { value: "∞", label: "ALWAYS LEARNING" },
 ];
 
 function Hero({ darkMode, socials }: HeroProps) {
@@ -603,12 +604,6 @@ function Hero({ darkMode, socials }: HeroProps) {
                       ? "bg-black/40 text-white border border-white/15"
                       : "bg-white/70 text-slate-900 border border-white/60"}`}>
                     Fullstack Dev
-                  </span>
-                  <span className={`mono text-[10px] px-2.5 py-1 rounded-md backdrop-blur-md
-                    ${darkMode
-                      ? "bg-black/40 text-stone-300 border border-white/15"
-                      : "bg-white/70 text-slate-600 border border-white/60"}`}>
-                    v.{new Date().getFullYear()}
                   </span>
                 </div>
               </div>
@@ -804,7 +799,9 @@ export default function App() {
 
       <Hero darkMode={darkMode} socials={socials} />
 
-      <WorkExperience darkMode={darkMode} />
+      <div id="experience" className="scroll-mt-20">
+        <WorkExperience darkMode={darkMode} />
+      </div>
 
       <EducationJourney darkMode={darkMode} />
 
@@ -860,10 +857,10 @@ export default function App() {
 
           <div className={`pt-8 flex flex-col sm:flex-row items-center justify-between gap-3
             border-t ${darkMode ? "border-white/6" : "border-slate-200"}`}>
-            <span className={`mono text-[10px] uppercase tracking-widest
+            {/* <span className={`mono text-[10px] uppercase tracking-widest
               ${darkMode ? "text-stone-600" : "text-slate-400"}`}>
               © {new Date().getFullYear()} Nassoreen. All Rights Reserved.
-            </span>
+            </span> */}
           </div>
         </div>
       </footer>
