@@ -26,7 +26,7 @@ import DockerLogo from "@/assets/logos/tech_stack/docker.svg";
 import PostmanLogo from "@/assets/logos/tech_stack/postman.svg";
 import OllamaLogo from "@/assets/logos/tech_stack/ollama.svg";
 import DjangoLogo from "@/assets/logos/tech_stack/django.svg";
-import TesorflowLogo from "@/assets/logos/tech_stack/Tensorflow.svg";
+import TensorflowLogo from "@/assets/logos/tech_stack/tensorflow.svg";
 
 import type { TechCategory, TechItem } from "@/types";
 
@@ -65,7 +65,7 @@ export const getTechCategories = (darkMode: boolean): TechCategory[] => [
             { name: "Docker", icon: DockerLogo },
             { name: "Postman", icon: PostmanLogo },
             { name: "Ollama", icon: OllamaLogo },
-            { name: "Tensorflow", icon: TesorflowLogo },
+            { name: "Tensorflow", icon: TensorflowLogo },
         ],
     },
 ];
