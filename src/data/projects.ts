@@ -34,7 +34,13 @@ export const buildProjects = (
       image: getMainImage("project5"),
       tech: ["JavaScript", "Django", "PostgreSQL", "Ollama"],
       screenshots: screenshotsByProject["project5"] ?? [],
-      links: [{ type: "Website", url: "https://lifelineconnect.online" }],
+      
+      links: [   
+        {
+          type: "GitHub",
+          url: "https://github.com/nassoreen/CMSA-Chatbot-AI",
+        },
+      ],
       featured: true,
     },
 
@@ -45,52 +51,53 @@ export const buildProjects = (
       image: getMainImage("project2"),
       tech: [
         "React.js",
-        "Tailwind CSS",
         "Node.js",
-        "Express",
         "MongoDB",
         "Socket.IO",
+        "TailwindCSS",
+        "Express",
         "Groq AI",
       ],
       screenshots: screenshotsByProject["project2"] ?? [],
       links: [
         {
           type: "GitHub",
+          url: "https://github.com/nassoreen/TMWave",
+        },
+      ],
+      featured: false,
+    },
+        
+    {
+      name: "EDFile",
+      description:
+        "EDFile คือ เว็บไซต์ที่มีชุดเครื่องมือ PDF บนเว็บที่ทันสมัย ​​สำหรับแก้ไขและจัดการเอกสารที่มีข้อความ รูปภาพ GIF ลิงก์ ภาพวาด ฟิลเตอร์ และอื่นๆ อีกมากมาย",
+      image: getMainImage("project3"),
+      tech: ["React.js", "TypeScript", "Vite", "TailwindCSS"],
+      screenshots: screenshotsByProject["project3"] ?? [],
+      links: [
+        { type: "Website", url: "https://ed-file.vercel.app/" },
+        {
+          type: "GitHub",
+          url: "https://github.com/nassoreen/EDFile",
+        },
+      ],
+      featured: false,
+    },
+    
+        
+    {
+      name: "Portfolio",
+      description:
+        "เว็บไซต์พอร์ตโฟลิโอส่วนตัวที่รวบรวมประวัติการศึกษา ประสบการณ์ฝึกงาน ทักษะด้านการพัฒนาเว็บไซต์และ AI รวมถึงโปรเจกต์ที่พัฒนาขึ้น",
+      image: getMainImage("project4"),
+      tech: ["TypeScript", "React.js", "TailwindCSS"],
+      screenshots: screenshotsByProject["project4"] ?? [],
+      links: [
+        { type: "Website", url: "https://nassoreen-portfolio.vercel.app/" },
+        {
+          type: "GitHub",
           url: "https://github.com/nassoreen/Nassoreen-Portfolio",
-        },
-      ],
-      featured: false,
-    },
-        
-        {
-      name: "",
-      description:
-        "",
-      image: getMainImage(""),
-      tech: [""],
-      screenshots: screenshotsByProject[""] ?? [],
-      links: [
-        { type: "Website", url: "" },
-        {
-          type: "GitHub",
-          url: "",
-        },
-      ],
-      featured: false,
-    },
-        
-        {
-      name: "",
-      description:
-        "",
-      image: getMainImage(""),
-      tech: [""],
-      screenshots: screenshotsByProject[""] ?? [],
-      links: [
-        { type: "Website", url: "" },
-        {
-          type: "GitHub",
-          url: "",
         },
       ],
       featured: false,

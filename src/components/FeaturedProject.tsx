@@ -139,7 +139,7 @@ export default function FeaturedProject({
 
                         <span className={`mono text-[10px] uppercase tracking-widest ml-auto
                             ${darkMode ? "text-stone-600" : "text-slate-400"}`}>
-                            Click to view →
+                            คลิกเพื่อดู →
                         </span>
                     </div>
                 </div>

@@ -27,6 +27,10 @@ import PostmanLogo from "@/assets/logos/tech_stack/postman.svg";
 import OllamaLogo from "@/assets/logos/tech_stack/ollama.svg";
 import DjangoLogo from "@/assets/logos/tech_stack/django.svg";
 import TensorflowLogo from "@/assets/logos/tech_stack/tensorflow.svg";
+import NodeLogo from "@/assets/logos/tech_stack/node-js.svg";
+import ViteLogo from "@/assets/logos/tech_stack/vite.svg";
+import MongdbLogo from "@/assets/logos/tech_stack/mongodb.svg";
+import SocketLogo from "@/assets/logos/tech_stack/socket-dot-iosvg.svg";
 
 import type { TechCategory, TechItem } from "@/types";
 
@@ -46,6 +50,8 @@ export const getTechCategories = (darkMode: boolean): TechCategory[] => [
             { name: "Python", icon: PythonLogo },
             { name: "PHP", icon: PhpLogo },
             { name: "Django", icon: DjangoLogo },
+            { name: "Node.js", icon: NodeLogo },
+            { name: "Vite", icon: ViteLogo },
         ],
     },
     {
@@ -66,6 +72,8 @@ export const getTechCategories = (darkMode: boolean): TechCategory[] => [
             { name: "Postman", icon: PostmanLogo },
             { name: "Ollama", icon: OllamaLogo },
             { name: "Tensorflow", icon: TensorflowLogo },
+            { name: "MongoDB", icon: MongdbLogo },
+            { name: "Socket.IO", icon: SocketLogo },
         ],
     },
 ];

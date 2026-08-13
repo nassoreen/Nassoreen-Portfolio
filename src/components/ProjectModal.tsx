@@ -234,7 +234,7 @@ export default function ProjectModal({
                                     ${darkMode
                                         ? "bg-orange-500/15 text-orange-300 border border-orange-500/25"
                                         : "bg-orange-50 text-orange-700 border border-orange-200"}`}>
-                                    ★ Featured Work
+                                    ★ ผลงานเด่น
                                 </span>
                             )}
                         </div>
@@ -299,7 +299,7 @@ export default function ProjectModal({
                                                     ) : (
                                                         <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
                                                     )}
-                                                    {isGithub ? "Source" : "Visit Live"}
+                                                    {isGithub ? "Source" : "Demo"}
                                                 </a>
                                             );
                                         })}
@@ -314,9 +314,9 @@ export default function ProjectModal({
                         ${darkMode
                             ? "bg-white/[0.02] border-t border-white/8 text-stone-500"
                             : "bg-slate-50 border-t border-slate-200 text-slate-400"}`}>
-                        <span><kbd className="font-bold">esc</kbd> close</span>
-                        <span><kbd className="font-bold">←/→</kbd> gallery</span>
-                        <span><kbd className="font-bold">Shift ⇧  ←/→</kbd> project</span>
+                        <span><kbd className="font-bold">esc</kbd> ปิด</span>
+                        <span><kbd className="font-bold">←/→</kbd> แกลเลอรี่</span>
+                        <span><kbd className="font-bold">Shift ⇧  ←/→</kbd> โครงการ</span>
                     </div>
                 </aside>
             </div>
