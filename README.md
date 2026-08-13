@@ -3,7 +3,7 @@
 ## About
 This is my personal web-based portfolio showcasing information about me and my recent projects.
 
-Live version: [Portfolio](https://your-portfolio-link.com/)
+Live version: [Portfolio](https://nassoreen-portfolio.vercel.app/)
 
 ## Tech Stack
 
